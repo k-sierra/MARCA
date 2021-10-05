@@ -1,0 +1,104 @@
+/* Colores y clases */
+.no-br {
+  border: none;
+}
+/* Fonts */
+.font-main-head {
+  color: #cc0000;
+}
+/* Backgrounds */
+.bg-main-head {
+  background-color: #cc0000;
+}
+
+/* --------------------- HEADER --------------------- */
+
+.header-high ul li {
+  /* display: inline-block; */
+  border-right: 1px solid white;
+  display: block;
+  float: left;
+  padding-right: 15px;
+}
+
+.header-high ul li:hover {
+  color: grey;
+  cursor: pointer;
+  text-decoration: underline gray;
+}
+
+.main-button-head {
+  height: 32px;
+  width: 110px;
+}
+
+.logo-img {
+  height: 50px;
+  width: 137px;
+  display: block;
+  margin: auto;
+}
+
+.anuncio-img {
+  margin-left: 20px;
+}
+
+.btn-suscribir {
+  background-color: #cf1818;
+  color: white;
+  border: 1px solid black;
+}
+
+.btn-iniciar-sesion {
+  margin-right: 10px;
+  background-color: white;
+  color: #cc0000;
+  border: 1px solid black;
+}
+
+/* ----------- NAVBAR ----------- */
+.logos-equipos ul li {
+  display: block;
+  float: left;
+  padding: 15px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Ediciones Bandera */
+.edicionesBandera {
+  width: 24px;
+  height: 24px;
+}
+
+/* --------------------- BODY --------------------- */
+
+/* --------------------- FOOTER --------------------- */
+
+.post-footer {
+  text-align: center;
+}
+
+.post-footer li {
+  float: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+.post-footer ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+#final-post-footer {
+  border: none;
+}
+
+.social-media {
+  cursor: pointer;
+}
+
+/* Pruebas */
+.pruebas {
+  width: 500px;
+}
